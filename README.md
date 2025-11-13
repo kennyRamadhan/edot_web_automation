@@ -1,7 +1,7 @@
 # QA Automation - EDOT Project
 
 Automation testing untuk aplikasi EDOT menggunakan **Selenium Python**, **Pytest**, dan **Allure Report**.  
-Laporan lengkap dengan milestone screenshot dan screenshot otomatis saat test gagal.
+
 
 ---
 
@@ -27,8 +27,7 @@ Laporan lengkap dengan milestone screenshot dan screenshot otomatis saat test ga
 - **Windows / Mac / Linux:** [Download Python](https://www.python.org/downloads/)
 
 ### 2.2 Install pip (jika belum ada)
-```bash
-python -m ensurepip --upgrade
+```bash python -m ensurepip --upgrade
 
 2.3 Install Virtual Environment (opsional tapi direkomendasikan)
 python -m venv venv
