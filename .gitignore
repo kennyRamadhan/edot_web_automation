@@ -1,0 +1,89 @@
+# ============================================
+# QA Automation - EDOT Project
+# Struktur: base/, pages/, tests/, helper/
+# Tools: Selenium + Pytest + Allure
+# ============================================
+
+# =========================
+#  Python Cache & Build
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# =========================
+#  Pytest & Allure Reports
+# =========================
+
+.cache/
+.pytest_cache/
+allure-results/
+allure-report/
+reports/
+report.html
+logs/
+*.log
+*.png
+output.xml
+
+
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+*.env
+.env
+
+# =========================
+#  IDE / Editor Configs
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Sensitive Config Files
+# =========================
+config.json
+config.yaml
+secrets.json
+credentials.json
+token.json
+*.pem
+*.crt
+*.key
+
+# =========================
+# Project-Specific Exclusions
+# =========================
+# Folder project utama
+/base/__pycache__/
+/pages/__pycache__/
+/tests/__pycache__/
+/helper/__pycache__/
+
+
+tmp/
+temp/
+*.bak
+*.old
+*.tmp
+
+
